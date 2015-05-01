@@ -1,2 +1,1 @@
-# words
-Un mot au hazard
+Les mot on été recuprés sur http://abu.cnam.fr/ avec `for numero in {a..z}; do curl http://abu.cnam.fr/cgi-bin/donner-dico-uncompress?liste_${numero} -o "${numero}.txt"; done`
